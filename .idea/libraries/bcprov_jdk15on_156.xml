@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="bcpkix-jdk15on-151">
+  <library name="bcprov-jdk15on-156">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/bcpkix-jdk15on-151.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bcprov-jdk15on-156.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

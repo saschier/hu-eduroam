@@ -27,3 +27,5 @@ proguard/
 
 # Idea Workspace
 .idea/workspace.xml
+
+.DS_Store

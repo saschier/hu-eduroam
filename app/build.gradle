@@ -1,23 +1,24 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 19
-    buildToolsVersion "21.1.0"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
-        applicationId "nl.nikhef.eduroam"
+        applicationId "de.fh_potsdam.eduroam"
         minSdkVersion 14
         targetSdkVersion 19
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
 }
 
 dependencies {
-    compile files('/home/groepeen/AndroidstudioProjects/hu-eduroam/libs/bcprov-jdk15on-151.jar')
-    compile files('/home/groepeen/AndroidstudioProjects/hu-eduroam/libs/bcpkix-jdk15on-151.jar')
+    compile files('../libs/bcprov-jdk15on-156.jar')
+    compile files('../libs/bcpkix-jdk15on-156.jar')
 }

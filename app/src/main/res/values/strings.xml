@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">HU Berlin WLAN Installer</string>
+	<string name="app_name">FH Potsdam WLAN Installer</string>
 
 	<string name="TITLE_LOGON">Bitte anmelden</string>
 	<string name="Username">Nutzername:</string>
@@ -16,8 +16,8 @@
 	<string name="ABOUT_TITLE">Über</string>
 	<string name="EXIT_TITLE">Beenden</string>
 		
-	<string name="ABOUT_CONTENT">eduroam WLAN Installer für Angehörige der Humboldt-Universität zu Berlin basierend auf "Nikhef eduroam Wifi helper". Installiert eduroam WLAN-Profil inklusive benötigten Zertifikaten.</string>
+	<string name="ABOUT_CONTENT">eduroam WLAN Installer für Angehörige der Fachhochschule Potsdam basierend auf "Nikhef eduroam Wifi helper" und dem "HU Berlin WLAN Installer". Installiert eduroam WLAN-Profil inklusive benötigten Zertifikaten.</string>
 	<string name="UNCHANGED">Unverändert</string>
 	<string name="CHANGED">Verändert</string>
-    <string name="HU_LOGO">HU Logo</string>
+    <string name="HU_LOGO">FHP Logo</string>
 </resources>
